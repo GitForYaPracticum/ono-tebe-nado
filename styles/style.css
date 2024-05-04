@@ -86,14 +86,11 @@ main {
 }
 
 /* Cover */
-.cover__style {
+.cover {
   position: relative;
   padding: 165px 50px 50px 50px;
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-.cover__img {
   background-image: url(../images/cover.jpg);
 }
 
@@ -201,11 +198,12 @@ main {
   justify-content: space-between;
   gap: 30px;
   width: auto;
-  height: 95%;
+  height: 100%;
   padding: 50px 40px;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 
 .card_film {
   background-image: url(../images/card-lot-01.jpg);
