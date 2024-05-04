@@ -63,7 +63,8 @@ main {
   font-style: inherit;
 }
 
-.address__item, .address__text {
+.address__item,
+.address__text {
   display: block;
   font-size: 18px;
   line-height: 1.35;
@@ -218,7 +219,8 @@ main {
   background-image: url(../images/card-lot-03.jpg);
 }
 
-.card__title, .card__text {
+.card__title,
+.card__text {
   position: relative;
   z-index: 1;
   color: #FFF;
