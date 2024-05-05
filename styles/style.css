@@ -182,7 +182,7 @@ main {
 .lots__card-list {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 25px;
+  gap: 25px;
   list-style: none;
 }
 
@@ -201,12 +201,11 @@ main {
   width: auto;
   height: 100%;
   max-height: 560px;
+  min-height: 560px;
   padding: 50px 40px;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-bottom: 25px;
 }
-
 
 .card_film {
   background-image: url(../images/card-lot-01.jpg);
@@ -242,7 +241,7 @@ main {
 
 .lots__look-more-link {
   display: block;
-  margin: 10px 0 0 40px;
+  margin: 30px 0 0 40px;
   font-size: 20px;
   text-decoration-line: underline;
   text-underline-position: under;
@@ -259,7 +258,6 @@ main {
 
 .about__column {
   justify-self: center;
-
 }
 
 .about__column_text {
